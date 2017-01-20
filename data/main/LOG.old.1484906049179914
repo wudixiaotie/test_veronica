@@ -1,0 +1,153 @@
+2017/01/20-17:52:29.729903 b2ef7000 RocksDB version: 4.5.0
+2017/01/20-17:52:29.729929 b2ef7000 Git sha rocksdb_build_git_sha:69c98f043185f49ee1d83465b2eafe2afdef7c98
+2017/01/20-17:52:29.729931 b2ef7000 Compile date Jan 20 2017
+2017/01/20-17:52:29.729933 b2ef7000 DB SUMMARY
+2017/01/20-17:52:29.729984 b2ef7000 SST files in data/main dir, Total Num: 0, files: 
+2017/01/20-17:52:29.729987 b2ef7000 Write Ahead Log file in data/main: 
+2017/01/20-17:52:29.729988 b2ef7000          Options.error_if_exists: 0
+2017/01/20-17:52:29.729990 b2ef7000        Options.create_if_missing: 1
+2017/01/20-17:52:29.729991 b2ef7000          Options.paranoid_checks: 1
+2017/01/20-17:52:29.729992 b2ef7000                      Options.env: 0x14532408
+2017/01/20-17:52:29.729993 b2ef7000                 Options.info_log: 0x7fe92bd00a90
+2017/01/20-17:52:29.729995 b2ef7000           Options.max_open_files: 4864
+2017/01/20-17:52:29.729996 b2ef7000 Options.max_file_opening_threads: 1
+2017/01/20-17:52:29.729997 b2ef7000       Options.max_total_wal_size: 0
+2017/01/20-17:52:29.729998 b2ef7000        Options.disableDataSync: 0
+2017/01/20-17:52:29.729999 b2ef7000              Options.use_fsync: 0
+2017/01/20-17:52:29.730000 b2ef7000      Options.max_log_file_size: 0
+2017/01/20-17:52:29.730002 b2ef7000 Options.max_manifest_file_size: 18446744073709551615
+2017/01/20-17:52:29.730003 b2ef7000      Options.log_file_time_to_roll: 0
+2017/01/20-17:52:29.730004 b2ef7000      Options.keep_log_file_num: 1000
+2017/01/20-17:52:29.730005 b2ef7000   Options.recycle_log_file_num: 0
+2017/01/20-17:52:29.730006 b2ef7000        Options.allow_os_buffer: 1
+2017/01/20-17:52:29.730007 b2ef7000       Options.allow_mmap_reads: 0
+2017/01/20-17:52:29.730008 b2ef7000       Options.allow_fallocate: 1
+2017/01/20-17:52:29.730009 b2ef7000      Options.allow_mmap_writes: 0
+2017/01/20-17:52:29.730010 b2ef7000          Options.create_missing_column_families: 0
+2017/01/20-17:52:29.730012 b2ef7000                              Options.db_log_dir: 
+2017/01/20-17:52:29.730013 b2ef7000                                 Options.wal_dir: data/main
+2017/01/20-17:52:29.730014 b2ef7000                Options.table_cache_numshardbits: 4
+2017/01/20-17:52:29.730015 b2ef7000     Options.delete_obsolete_files_period_micros: 21600000000
+2017/01/20-17:52:29.730019 b2ef7000              Options.base_background_compactions: 1
+2017/01/20-17:52:29.730020 b2ef7000              Options.max_background_compactions: 1
+2017/01/20-17:52:29.730021 b2ef7000                      Options.max_subcompactions: 1
+2017/01/20-17:52:29.730022 b2ef7000                  Options.max_background_flushes: 1
+2017/01/20-17:52:29.730023 b2ef7000                         Options.WAL_ttl_seconds: 0
+2017/01/20-17:52:29.730025 b2ef7000                       Options.WAL_size_limit_MB: 0
+2017/01/20-17:52:29.730026 b2ef7000             Options.manifest_preallocation_size: 4194304
+2017/01/20-17:52:29.730027 b2ef7000                          Options.allow_os_buffer: 1
+2017/01/20-17:52:29.730028 b2ef7000                         Options.allow_mmap_reads: 0
+2017/01/20-17:52:29.730029 b2ef7000                        Options.allow_mmap_writes: 0
+2017/01/20-17:52:29.730030 b2ef7000                      Options.is_fd_close_on_exec: 1
+2017/01/20-17:52:29.730031 b2ef7000                    Options.stats_dump_period_sec: 600
+2017/01/20-17:52:29.730032 b2ef7000                    Options.advise_random_on_open: 1
+2017/01/20-17:52:29.730034 b2ef7000                     Options.db_write_buffer_size: 0d
+2017/01/20-17:52:29.730035 b2ef7000          Options.access_hint_on_compaction_start: NORMAL
+2017/01/20-17:52:29.730036 b2ef7000   Options.new_table_reader_for_compaction_inputs: 0
+2017/01/20-17:52:29.730037 b2ef7000                Options.compaction_readahead_size: 0d
+2017/01/20-17:52:29.730038 b2ef7000                Options.random_access_max_buffer_size: 1048576d
+2017/01/20-17:52:29.730039 b2ef7000               Options.writable_file_max_buffer_size: 1048576d
+2017/01/20-17:52:29.730041 b2ef7000                       Options.use_adaptive_mutex: 0
+2017/01/20-17:52:29.730042 b2ef7000                             Options.rate_limiter: 0x0
+2017/01/20-17:52:29.730053 b2ef7000      Options.sst_file_manager.rate_bytes_per_sec: 0
+2017/01/20-17:52:29.730055 b2ef7000                           Options.bytes_per_sync: 0
+2017/01/20-17:52:29.730056 b2ef7000                       Options.wal_bytes_per_sync: 0
+2017/01/20-17:52:29.730057 b2ef7000                        Options.wal_recovery_mode: 0
+2017/01/20-17:52:29.730058 b2ef7000                   Options.enable_thread_tracking: 0
+2017/01/20-17:52:29.730059 b2ef7000          Options.allow_concurrent_memtable_write: 0
+2017/01/20-17:52:29.730060 b2ef7000       Options.enable_write_thread_adaptive_yield: 0
+2017/01/20-17:52:29.730061 b2ef7000              Options.write_thread_max_yield_usec: 100
+2017/01/20-17:52:29.730062 b2ef7000             Options.write_thread_slow_yield_usec: 3
+2017/01/20-17:52:29.730064 b2ef7000                                Options.row_cache: None
+2017/01/20-17:52:29.730065 b2ef7000        Options.wal_filter: None
+2017/01/20-17:52:29.730066 b2ef7000 Compression algorithms supported:
+2017/01/20-17:52:29.730067 b2ef7000 	Snappy supported: 1
+2017/01/20-17:52:29.730068 b2ef7000 	Zlib supported: 1
+2017/01/20-17:52:29.730070 b2ef7000 	Bzip supported: 1
+2017/01/20-17:52:29.730071 b2ef7000 	LZ4 supported: 0
+2017/01/20-17:52:29.730072 b2ef7000 Fast CRC32 supported: 1
+2017/01/20-17:52:29.730188 b2ef7000 Creating manifest 1 
+2017/01/20-17:52:29.733071 b2ef7000 Recovering from manifest file: MANIFEST-000001
+2017/01/20-17:52:29.733117 b2ef7000 --------------- Options for column family [default]:
+2017/01/20-17:52:29.733123 b2ef7000               Options.comparator: rocksdb.InternalKeyComparator:leveldb.BytewiseComparator
+2017/01/20-17:52:29.733125 b2ef7000           Options.merge_operator: None
+2017/01/20-17:52:29.733126 b2ef7000        Options.compaction_filter: None
+2017/01/20-17:52:29.733128 b2ef7000        Options.compaction_filter_factory: None
+2017/01/20-17:52:29.733129 b2ef7000         Options.memtable_factory: SkipListFactory
+2017/01/20-17:52:29.733131 b2ef7000            Options.table_factory: BlockBasedTable
+2017/01/20-17:52:29.733148 b2ef7000            table_factory options:   flush_block_policy_factory: FlushBlockBySizePolicyFactory (0x7fe92bc3bd40)
+  cache_index_and_filter_blocks: 0
+  index_type: 0
+  hash_index_allow_collision: 1
+  checksum: 1
+  no_block_cache: 0
+  block_cache: 0x7fe92bc45098
+  block_cache_size: 8388608
+  block_cache_compressed: 0x0
+  block_size: 4096
+  block_size_deviation: 10
+  block_restart_interval: 16
+  index_block_restart_interval: 1
+  filter_policy: nullptr
+  whole_key_filtering: 1
+  skip_table_builder_flush: 0
+  format_version: 0
+2017/01/20-17:52:29.733151 b2ef7000        Options.write_buffer_size: 4194304
+2017/01/20-17:52:29.733152 b2ef7000  Options.max_write_buffer_number: 2
+2017/01/20-17:52:29.733154 b2ef7000          Options.compression: Snappy
+2017/01/20-17:52:29.733155 b2ef7000       Options.prefix_extractor: nullptr
+2017/01/20-17:52:29.733157 b2ef7000             Options.num_levels: 7
+2017/01/20-17:52:29.733158 b2ef7000        Options.min_write_buffer_number_to_merge: 1
+2017/01/20-17:52:29.733160 b2ef7000     Options.max_write_buffer_number_to_maintain: 0
+2017/01/20-17:52:29.733161 b2ef7000            Options.compression_opts.window_bits: -14
+2017/01/20-17:52:29.733163 b2ef7000                  Options.compression_opts.level: -1
+2017/01/20-17:52:29.733164 b2ef7000               Options.compression_opts.strategy: 0
+2017/01/20-17:52:29.733166 b2ef7000      Options.level0_file_num_compaction_trigger: 4
+2017/01/20-17:52:29.733167 b2ef7000          Options.level0_slowdown_writes_trigger: 20
+2017/01/20-17:52:29.733169 b2ef7000              Options.level0_stop_writes_trigger: 24
+2017/01/20-17:52:29.733170 b2ef7000                   Options.target_file_size_base: 2097152
+2017/01/20-17:52:29.733172 b2ef7000             Options.target_file_size_multiplier: 1
+2017/01/20-17:52:29.733173 b2ef7000                Options.max_bytes_for_level_base: 10485760
+2017/01/20-17:52:29.733175 b2ef7000 Options.level_compaction_dynamic_level_bytes: 0
+2017/01/20-17:52:29.733176 b2ef7000          Options.max_bytes_for_level_multiplier: 10
+2017/01/20-17:52:29.733194 b2ef7000 Options.max_bytes_for_level_multiplier_addtl[0]: 1
+2017/01/20-17:52:29.733196 b2ef7000 Options.max_bytes_for_level_multiplier_addtl[1]: 1
+2017/01/20-17:52:29.733198 b2ef7000 Options.max_bytes_for_level_multiplier_addtl[2]: 1
+2017/01/20-17:52:29.733199 b2ef7000 Options.max_bytes_for_level_multiplier_addtl[3]: 1
+2017/01/20-17:52:29.733201 b2ef7000 Options.max_bytes_for_level_multiplier_addtl[4]: 1
+2017/01/20-17:52:29.733202 b2ef7000 Options.max_bytes_for_level_multiplier_addtl[5]: 1
+2017/01/20-17:52:29.733203 b2ef7000 Options.max_bytes_for_level_multiplier_addtl[6]: 1
+2017/01/20-17:52:29.733205 b2ef7000       Options.max_sequential_skip_in_iterations: 8
+2017/01/20-17:52:29.733206 b2ef7000              Options.expanded_compaction_factor: 25
+2017/01/20-17:52:29.733208 b2ef7000                Options.source_compaction_factor: 1
+2017/01/20-17:52:29.733210 b2ef7000          Options.max_grandparent_overlap_factor: 10
+2017/01/20-17:52:29.733211 b2ef7000                        Options.arena_block_size: 524288
+2017/01/20-17:52:29.733213 b2ef7000   Options.soft_pending_compaction_bytes_limit: 0
+2017/01/20-17:52:29.733214 b2ef7000   Options.hard_pending_compaction_bytes_limit: 0
+2017/01/20-17:52:29.733216 b2ef7000       Options.rate_limit_delay_max_milliseconds: 1000
+2017/01/20-17:52:29.733217 b2ef7000                Options.disable_auto_compactions: 0
+2017/01/20-17:52:29.733219 b2ef7000                           Options.filter_deletes: 0
+2017/01/20-17:52:29.733220 b2ef7000           Options.verify_checksums_in_compaction: 1
+2017/01/20-17:52:29.733222 b2ef7000                         Options.compaction_style: 0
+2017/01/20-17:52:29.733223 b2ef7000                           Options.compaction_pri: 0
+2017/01/20-17:52:29.733224 b2ef7000  Options.compaction_options_universal.size_ratio: 1
+2017/01/20-17:52:29.733226 b2ef7000 Options.compaction_options_universal.min_merge_width: 2
+2017/01/20-17:52:29.733227 b2ef7000 Options.compaction_options_universal.max_merge_width: 4294967295
+2017/01/20-17:52:29.733229 b2ef7000 Options.compaction_options_universal.max_size_amplification_percent: 200
+2017/01/20-17:52:29.733230 b2ef7000 Options.compaction_options_universal.compression_size_percent: -1
+2017/01/20-17:52:29.733232 b2ef7000 Options.compaction_options_fifo.max_table_files_size: 1073741824
+2017/01/20-17:52:29.733233 b2ef7000                   Options.table_properties_collectors: 
+2017/01/20-17:52:29.733235 b2ef7000                   Options.inplace_update_support: 0
+2017/01/20-17:52:29.733236 b2ef7000                 Options.inplace_update_num_locks: 10000
+2017/01/20-17:52:29.733238 b2ef7000               Options.min_partial_merge_operands: 2
+2017/01/20-17:52:29.733239 b2ef7000               Options.memtable_prefix_bloom_bits: 0
+2017/01/20-17:52:29.733240 b2ef7000             Options.memtable_prefix_bloom_probes: 6
+2017/01/20-17:52:29.733242 b2ef7000   Options.memtable_prefix_bloom_huge_page_tlb_size: 0
+2017/01/20-17:52:29.733243 b2ef7000                           Options.bloom_locality: 0
+2017/01/20-17:52:29.733245 b2ef7000                    Options.max_successive_merges: 0
+2017/01/20-17:52:29.733246 b2ef7000                Options.optimize_filters_for_hits: 0
+2017/01/20-17:52:29.733248 b2ef7000                Options.paranoid_file_checks: 0
+2017/01/20-17:52:29.733249 b2ef7000                Options.compaction_measure_io_stats: 0
+2017/01/20-17:52:29.733333 b2ef7000 Recovered from manifest file:data/main/MANIFEST-000001 succeeded,manifest_file_number is 1, next_file_number is 3, last_sequence is 0, log_number is 0,prev_log_number is 0,max_column_family is 0
+2017/01/20-17:52:29.733338 b2ef7000 Column family [default] (ID 0), log number is 0
+2017/01/20-17:52:29.734682 b2ef7000 DB pointer 0x7fe92d801000

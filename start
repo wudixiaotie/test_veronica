@@ -1,0 +1,4 @@
+#!/bin/bash
+rebar3 compile
+mkdir data
+erl -name test_veronica@10.20.0.68 -setcookie erlang -pa _build/default/lib/*/ebin/ -eval 'application:ensure_all_started(test_veronica).'

@@ -1,0 +1,17 @@
+{application, test_veronica,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, { test_veronica_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    veronica
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {maintainers, []},
+  {licenses, []},
+  {links, []}
+ ]}.
